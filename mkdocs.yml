@@ -1,0 +1,30 @@
+site_name: Insurance Cross Sell Prediction
+site_description: A machine learning projects.
+repo_url: https://github.com/nou-hub-tech/mlops-project
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: white
+  font:
+    text: Work Sans
+    code: Space Mono
+  features:
+    - navigation.instant
+    - toc.integrate
+
+nav:
+  - Home: index.md
+
+extra_css:
+  - css/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nou-hub-tech
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/nou-hub-tech"  target="_blank" rel="noopener">nou-hub-tech</a>

@@ -1,0 +1,23 @@
+data:
+  train_path: data/train.csv
+  test_path: data/test.csv
+
+train:
+  test_size: 0.2
+  random_state: 42
+  shuffle: true
+
+model:
+  name: DecisionTreeClassifier
+  params:
+    criterion: entropy
+    max_depth: null
+  store_path: models/
+
+logging:
+  level: WARNING
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+mlflow:
+  experiment_name: Model Training Experiment - Production
+  model_name: insurance_model_production
